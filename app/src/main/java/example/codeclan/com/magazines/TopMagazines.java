@@ -16,4 +16,8 @@ public class TopMagazines {
         list.add(new Magazine(1, "Cherry Bomb", 2017));
         list.add(new Magazine(1, "Junko", 2015));
     }
+
+    public ArrayList<Magazine> getList(){
+        return new ArrayList<Magazine>(list);
+    }
 }
