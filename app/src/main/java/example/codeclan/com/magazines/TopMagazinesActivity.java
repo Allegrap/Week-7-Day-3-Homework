@@ -2,13 +2,14 @@ package example.codeclan.com.magazines;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MagazineActivity extends AppCompatActivity {
+public class TopMagazinesActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,5 +27,6 @@ public class MagazineActivity extends AppCompatActivity {
 
     public void getMagazine(View listItem){
         Magazine magazine = (Magazine) listItem.getTag();
+        Log.d("Magazine name: ", magazine.getName());
     }
 }

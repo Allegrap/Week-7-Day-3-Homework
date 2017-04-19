@@ -13,8 +13,8 @@ public class TopMagazines {
     public TopMagazines() {
         list = new ArrayList<Magazine>();
         list.add(new Magazine(1, "Ambrosia", 2016));
-        list.add(new Magazine(1, "Cherry Bomb", 2017));
-        list.add(new Magazine(1, "Junko", 2015));
+        list.add(new Magazine(2, "Cherry Bomb", 2017));
+        list.add(new Magazine(3, "Junko", 2015));
     }
 
     public ArrayList<Magazine> getList(){
