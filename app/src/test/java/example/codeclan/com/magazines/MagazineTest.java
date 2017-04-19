@@ -22,4 +22,9 @@ public class MagazineTest {
     public void getNameTest(){
         assertEquals("Ambrosia", magazine.getName());
     }
+
+    @Test
+    public void getRankingTest(){
+        assertEquals(1, magazine.getRanking());
+    }
 }
