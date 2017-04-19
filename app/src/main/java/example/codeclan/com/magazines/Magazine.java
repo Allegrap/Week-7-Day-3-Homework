@@ -11,6 +11,6 @@ public class Magazine {
     private int year;
 
     public Magazine(int ranking, String name, int year){
-        
+
     }
 }
