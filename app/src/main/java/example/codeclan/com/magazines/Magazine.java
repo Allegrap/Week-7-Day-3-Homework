@@ -23,4 +23,8 @@ public class Magazine {
     public int getRanking() {
         return ranking;
     }
+
+    public int getYear() {
+        return year;
+    }
 }
