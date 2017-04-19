@@ -11,6 +11,8 @@ public class Magazine {
     private int year;
 
     public Magazine(int ranking, String name, int year){
-
+        this.ranking = ranking;
+        this.name = name;
+        this.year = year;
     }
 }
