@@ -27,4 +27,9 @@ public class MagazineTest {
     public void getRankingTest(){
         assertEquals(1, magazine.getRanking());
     }
+
+    @Test
+    public void getYearTest(){
+        assertEquals(2016, magazine.getYear());
+    }
 }
