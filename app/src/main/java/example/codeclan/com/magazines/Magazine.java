@@ -19,4 +19,8 @@ public class Magazine {
     public String getName() {
         return name;
     }
+
+    public int getRanking() {
+        return ranking;
+    }
 }
