@@ -10,7 +10,7 @@ public class Magazine {
     private String name;
     private int year;
 
-    public Magazine(int ranking, String name, int year){
+    public Magazine(Integer ranking, String name, Integer year){
         this.ranking = ranking;
         this.name = name;
         this.year = year;
@@ -20,11 +20,11 @@ public class Magazine {
         return name;
     }
 
-    public int getRanking() {
+    public Integer getRanking() {
         return ranking;
     }
 
-    public int getYear() {
+    public Integer getYear() {
         return year;
     }
 }
