@@ -15,4 +15,8 @@ public class Magazine {
         this.name = name;
         this.year = year;
     }
+
+    public String getName() {
+        return name;
+    }
 }

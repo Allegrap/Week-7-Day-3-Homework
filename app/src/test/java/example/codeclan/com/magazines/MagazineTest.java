@@ -15,11 +15,11 @@ public class MagazineTest {
 
     @Before
     public void before(){
-        Magazine magazine = new Magazine(1, "Ambrosia", 2016);
+        magazine = new Magazine(1, "Ambrosia", 2016);
     }
 
     @Test
-    public void canGetName(){
+    public void getNameTest(){
         assertEquals("Ambrosia", magazine.getName());
     }
 }
